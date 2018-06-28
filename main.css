@@ -13,3 +13,8 @@ opacity: 0.75;
 span{
   font-family: 'Courier New', Courier, monospace  ;
 }
+
+h1,h2,h3
+{
+    line-height: 1.2;
+}
