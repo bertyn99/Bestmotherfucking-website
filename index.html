@@ -11,11 +11,19 @@
         <script>
 
                // setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. \n Viens dessus stp please"); }, 2000);  pop up 
-                myFunction()
+                function myFunction()
                 {
-                   return document.getElementsByTagName("body").style.backgroundColor = "magenta";
-                   
-                }
+                    document.body.style.backgroundColor = "magenta";
+                   document.body.style.fontFamily = "papyrus";
+                   setTimeout(function() { 
+                   if (confirm("Voulez vous gardez cette couleur ?")) {
+                       
+                     } else {
+                        document.body.style.backgroundColor = "white";;
+                        document.body.style.fontFamily = "auto";
+                    } }, 2000);
+                }   
+                
         </script>
     <header>
            
