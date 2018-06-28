@@ -1,0 +1,15 @@
+body
+{
+display: block;
+text-align: auto;
+margin: 40px auto;
+max-width: 650px;
+line-height: 1.6;
+padding: 0 10px;
+font-size: 18px;
+opacity: 0.75;
+}
+
+span{
+  font-family: 'Courier New', Courier, monospace  ;
+}
