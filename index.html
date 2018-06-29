@@ -9,27 +9,27 @@
 </head>
 <body>
     <script>
+          
         setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. \n Viens dessus stp please"); }, 2000);  
-         function myFunction()
-         {
-            document.body.style.backgroundColor = "magenta";
-            document.body.style.fontFamily = "papyrus";//le changement de police ne s affiche  pas sur linux(ou que sur certain appreil) mais marche pas sur windows
-            document.getElementsByClassName("blue").style.color="blue";
-            document.header.style.color="green"
-            setTimeout(function() { 
-            if (confirm("Voulez vous gardez cette couleur ?")) {
-                
-              } else {
-                 document.body.style.backgroundColor = "white";
-                 document.body.style.fontFamily = "auto";
-             } }, 3000);
-         }   
+                 function myFunction()
+                 {
+                     document.body.style.backgroundColor = "magenta";
+                    
+                    setTimeout(function(){
+                        if (confirm("Voulez vous gardez cette couleur ?")) {
+                        //si il clique ok il reste avec la nouvelle couleur
+                      } else {
+                      
+                        document.body.style.backgroundColor = "white";
+                         document.body.style.fontFamily = "auto";
+                     } }, 3000);
+                 }     
          
  </script>
     <header>
            
     <h1>This is <em>still</em> a motherfucking website.</h1>
-        <p Class="blue">And it's more fucking p class="blue"erfect than the last guy's.</p class="blue">
+        <p Class="blue">And it's more fucking perfect than the last guy's.</p class="blue">
         
     </header>
    
@@ -71,5 +71,6 @@
     <p class="blue">Inspired by the geniuses behind <a href="http://motherfuckingwebsite.com/">motherfuckingwebsite.com/</a> and <a href="https://txti.es/">txti</a></p>
     <p class="blue">This page—that isn't a total fucking eyesore—was created by <a href="https://twitter.com/drew_mc">me</a> and help from him <a href="https://twitter.com/drew_mc">him</a></p >
     <footer> <button onclick="myFunction()">Changez de style!!!! </button></footer>
+   
 </body>
 </html>
